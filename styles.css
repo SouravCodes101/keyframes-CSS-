@@ -1,0 +1,45 @@
+.animate {
+    background: linear-gradient(
+        35deg,
+        #ccffff,
+        #ffcccc
+      );
+      position: absolute;
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      margin: 100px;
+      animation-name: ball;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+}
+
+@keyframes ball {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: 200px;
+        height: 150px;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
